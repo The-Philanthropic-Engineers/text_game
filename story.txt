@@ -1,0 +1,100 @@
+start
+
+txt-
+    You are walking on a normal day.
+Suddenly, everything goes black. You feel as if
+you are spinning and falling. Then you are in a
+dark stone passageway. After you recover from
+your dizziness, you look around. You see two doors
+on one wall labeled:"Area 1" and "Area 2". One way
+in the passage, it goes as far as you can see. The
+other way there is a bend and a sign saying: "dead
+end" Which way do you go?
+-txt
+
+choice-
+a) Area 1
+b) Area 2
+c) dead end
+d) long passage
+-choice
+
+c_action-
+a1
+a2
+a3
+a4
+-c_action
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a1
+
+txt-
+    You open the door. There is darkness there. Nothing
+more. Suddenly, you feel a force pulling you into the
+darkness. You are unable to stop yourself from flying
+out into the void. As you float into the darkness, you
+see the door shutting.
+
+    Then, you fall. As you are falling, you wonder if
+that is the end of you. Then you hit a trampoline.You
+see that you are in a grassy valley surrounded by fir
+trees. You also notice tall bushes covered in flowers.
+There are a few boxes around you.
+
+    You can go into the forest, open some boxes, or
+wait until dark.
+-txt
+
+choice-
+a) Go into the forest
+b) Open boxes
+c) Wait
+-choice
+
+c_action-
+b1
+b2
+b3
+-c_action
+
+-end
+
+a2
+
+
+
+-end
+
+a3
+
+
+
+-end
+
+a4
+
+
+y
+
+
+
+
+-end
