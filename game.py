@@ -1,3 +1,9 @@
+#This is a text based game that uses a story file to make the game
+#There is more to be added
+#Developers: Zeptochicken and The Magnanimous Engineer
+#The program loops through a text file and looks for key terms that shape the game
+#A basic program mostly for learning. An interface version will eventually come.
+
 import os
 maindir = os.getcwd() + '/story.txt'
 f = open(maindir, 'r')
